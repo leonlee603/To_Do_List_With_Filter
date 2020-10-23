@@ -1,0 +1,18 @@
+.container {
+    margin-top: 20px;
+}
+.card-content {
+    background-image: URL(../img/toDoList.jpg);
+    background-size: cover;
+    background-position: top;
+}
+small {
+    visibility: hidden;
+}
+small.error {
+    visibility: visible;
+    margin-left: 10px;
+    color: #e74c3c;
+    text-shadow: 2px 2px 9px #ffffff;
+    font-size: 14px;
+}
